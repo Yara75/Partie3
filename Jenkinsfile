@@ -1,4 +1,3 @@
-// Jenkinsfile pour la branche Main
 pipeline {
     agent any
 
@@ -11,12 +10,10 @@ pipeline {
                 }
             }
         }
-        // Ajoutez d'autres étapes au besoin
     }
 
     post {
         always {
-            // Actions à effectuer toujours après l'exécution du pipeline
         }
     }
 }
