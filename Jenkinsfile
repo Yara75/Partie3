@@ -23,9 +23,11 @@ pipeline {
         stage('Utilisation des variables') {
             steps {
                 script {
-                    // Utiliser les variables dans une étape distincte
+                    env.LOISIR = 'Lecture'
+                    env.COLOR = 'Green'
                     echo "USER = ${USER}"
                     echo "COLOR = ${COLOR}"
+                    echo "LOISIR = ${LOISIR}"
                 }
             }
         }
