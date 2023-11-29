@@ -7,7 +7,7 @@ pipeline {
             steps {
                 script {
                     sh 'javac Br2.java'
-                    sh 'java Main'
+                    sh 'java Br2'
                 }
             }
         }
