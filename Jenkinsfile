@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Build and Run Main') {
+        stage('Build/Run') {
             steps {
                 script {
                     sh 'javac Br2.java'
