@@ -1,14 +1,21 @@
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main{
 	public static void main(String[] args)
 	{
 		System.out.println("Hello it's the main branch");
-		int test = 5, test2 = 53;
+		
+		String[] devoirs = {"TP DEVOPS", "TP RESEAUX", "TP OS", "RAPPORT ALTERNANCE", "PPT ALTERNANCE", "TOEIC BLANC"};
+        	List<String> taches_a_effectuer = new ArrayList<>();
+		
+        	for (String devoir : devoirs) {
+            		listeDeTaches.add(devoir);
+        	}
 
-		if((test + test2) == 58)
-		{
-			System.out.println("Test Ok");
-		}
+		for (String element : taches_a_effectuer) {
+            		System.out.println(" " + element);
+        	}
 		
 	}
 }
