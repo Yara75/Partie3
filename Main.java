@@ -10,7 +10,7 @@ public class Main{
         	List<String> taches_a_effectuer = new ArrayList<>();
 		
         	for (String devoir : devoirs) {
-            		listeDeTaches.add(devoir);
+            		tache_a_effectuer.add(devoir);
         	}
 
 		for (String element : taches_a_effectuer) {
